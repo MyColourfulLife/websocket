@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //1.用户登录之后链接socket  用户退出之后断开socket
+    
+    //2.程序开始活跃链接socket  程序进入后台断开socket
+    
+    
     return YES;
 }
 
@@ -40,6 +46,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    
 }
 
 
